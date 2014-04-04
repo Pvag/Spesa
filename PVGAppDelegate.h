@@ -11,10 +11,5 @@
 @interface PVGAppDelegate : NSObject <NSApplicationDelegate, NSTableViewDataSource>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (strong,nonatomic) IBOutlet NSTableView *table;
-
-@property (strong,nonatomic) NSMutableArray *data;
-
-- (IBAction)deleteItem:(NSButton *)sender;
 
 @end
